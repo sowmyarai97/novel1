@@ -7,8 +7,8 @@ do
 	result=1
 	while [ $i -gt 0 ]
 	do
-		result=`expr $i \* $result
-		i=`expr $i - 1
+		result=`expr $i \* $result`
+		i=`expr $i - 1`
 	done
 echo "factorial of number $temp is $result"
 done
